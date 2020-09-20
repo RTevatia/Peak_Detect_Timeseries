@@ -73,4 +73,5 @@ ax.plot(time_series, color="red")
 # Peaks with a windows size of 1
 ax.scatter(x_peaks_1, y_peaks_1, color="green")
 
+# show both the plots
 plt.show()
