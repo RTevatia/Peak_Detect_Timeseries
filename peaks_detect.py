@@ -28,3 +28,4 @@ pf.plot_peaks(pd.to_datetime(timestamps),
  data_series, df["Timestamp"], df["Value"], 
  xlabel="Time", ylabel="Milk Production (pounds per cow)", 
  title=f"Monthly milk production\nPeaks with window size of {window_size}")
+
