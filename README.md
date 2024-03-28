@@ -6,13 +6,13 @@
 
 ### peak_func.py module
  This module contains several function that help to detect, plot and save peak values and positions.
-#### a. peak_find:
+#### 1. peak_find:
 "peak_finding" function can be used to find the values and positions of peaks in a timeseries data.
-#### b. calculate_peak_timestamps
+#### 2. calculate_peak_timestamps
 "calculate_peak_timestamps" function detects the position i.e. timestamps for each peak.
-#### c. convert_to_df
+#### 3. convert_to_df
 "covert_to_df" function add the values of peak_find and their respective positions in a dataframe.
-#### d. save_peaks_to_csv
+#### 4. save_peaks_to_csv
 "save_peaks_to_csv" function store above created df into a csv file.
 ### plot_peaks
 "plot_peaks" function plots the peaks over the data
@@ -30,8 +30,7 @@ Step 1. Data - The data csv file 'milk_production.csv' is included (reference gi
 Step 2. Run 'peaks_detect.py' - Running the script will provide peaks locations. A graph will appear for visual inspection if peaks have been detected correctly or not. Change the window size. Smaller window size will detect more peaks, and may include residual peaks. Thus, the window size threshold shall be decided carefully.
 These two graphs were prepared by the script for the included data and window size 
 ![Figure_1](https://github.com/RTevatia/Peakdetect/assets/11818993/5d6acbc8-4a46-4336-982a-aeb55271bf36)
-![Figure_1](https://github.com/RTevatia/Peakdetect/assets/11818993/b9daec47-850d-4b16-84e1-9690412ab43e)
-
+![Figure_2](https://github.com/RTevatia/Peakdetect/assets/11818993/57bc8459-631e-4ab9-9e32-c7ceb972a774)
 
 ## Contributing
 
