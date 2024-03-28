@@ -21,7 +21,7 @@
 This is the main python file that is used to identify peaks for the data "milk_production.csv".
 
 ## Installation
-1. Clone the repository: git clone 
+1. Clone the repository: git clone https://github.com/RTevatia/Peakdetect.git
 2. Navigate to the repository: cd your_repository
 3. Install dependencies: npm install
 
